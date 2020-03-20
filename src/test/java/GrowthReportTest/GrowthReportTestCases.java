@@ -41,6 +41,7 @@ public class GrowthReportTestCases {
 		public void percentageChangeCase2()
 		{
 			double str=7.608695652173913-100;
+			
 			assertEquals(str,MonthlyGrowthReportDAO.percentageGrowth(4600.0,8850.0),1);
 		}
 		
